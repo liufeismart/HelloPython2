@@ -3,8 +3,8 @@
 #操作图像
 from PIL import Image
 
-im = Image.open('/Users/wenjing/Documents/workspace/python/Hello PyCharm/cat.jpg')
+im = Image.open('cat.jpg')
 w, h = im.size
 print(w,h)
 im.thumbnail((w//2, h//2))
-im.save('/Users/wenjing/Documents/workspace/python/Hello PyCharm/cat1.jpg', 'jpeg')
+im.save('cat1.jpg', 'jpeg')
