@@ -38,9 +38,11 @@ def rev_str(my_str):
     for i in range(length-1, -1, -1):
             yield my_str[i]
 
-print(rev_str("hello").next())
-print(rev_str("hello").next())
-print(rev_str("hello").next())
+# print(rev_str("hello").next())
+# print(rev_str("hello").next())
+# print(rev_str("hello").next())
+#
+# for char in rev_str("hello python"):
+#     print(char)
 
-for char in rev_str("hello python"):
-    print(char)
+
